@@ -20,6 +20,10 @@ app.param('time', (req, res, next, time) => {
 
 app.get('/:time', (req, res) => {
   const { unix, natural } = req;
+
+  console.log('received ' + req.params.time);
+  console.log(`parsed: ${natural} (${unix})`);
+
   res.send({ unix, natural });
 });
 
