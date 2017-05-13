@@ -1,0 +1,12 @@
+{
+  "name": "timestamps",
+  "version": "1.0.0",
+  "description": "timestamp microservice (freecodecamp project)",
+  "main": "server.js",
+  "author": "Noah Weiner",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "moment": "^2.18.1"
+  }
+}
